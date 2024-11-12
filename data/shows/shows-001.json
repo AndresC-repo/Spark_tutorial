@@ -1,0 +1,51 @@
+[
+    {
+      "_embedded": {
+        "episodes": [
+          {
+            "_links": {
+              "self": {
+                "href": "http://api.tvmaze.com/episodes/1"
+              }
+            },
+            "airdate": "2023-01-01",
+            "airstamp": "2023-01-01T08:00:00Z",
+            "airtime": "08:00",
+            "id": "1",
+            "image": {
+              "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/1/1.jpg",
+              "original": "http://static.tvmaze.com/uploads/images/original_untouched/1/1.jpg"
+            },
+            "name": "Episode 1",
+            "number": 1,
+            "runtime": 60,
+            "season": 1,
+            "summary": "The first episode of the show.",
+            "url": "http://api.tvmaze.com/episodes/1"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "http://api.tvmaze.com/episodes/2"
+              }
+            },
+            "airdate": "2023-01-08",
+            "airstamp": "2023-01-08T08:00:00Z",
+            "airtime": "08:00",
+            "id": "2",
+            "image": {
+              "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/1/2.jpg",
+              "original": "http://static.tvmaze.com/uploads/images/original_untouched/1/2.jpg"
+            },
+            "name": "Episode 2",
+            "number": 2,
+            "runtime": 60,
+            "season": 1,
+            "summary": "The second episode of the show.",
+            "url": "http://api.tvmaze.com/episodes/2"
+          }
+        ]
+      }
+    }
+  ]
+  

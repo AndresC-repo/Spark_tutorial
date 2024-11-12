@@ -1,0 +1,47 @@
+[
+    {
+      "_embedded": {
+        "episodes": [
+          {
+            "_links": {
+              "self": {
+                "href": "http://api.tvmaze.com/episodes/1"
+              }
+            },
+            "airdate": "2023-01-01",
+            "airstamp": "2023-01-01T08:00:00Z",
+            "airtime": 800,  // Error: airtime should be a string, not an integer
+            "id": 1,          // Error: id should be a string, not an integer
+            "image": {
+              "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/1/1.jpg"
+              // Error: Missing "original" field
+            },
+            "name": 101,      // Error: name should be a string, not an integer
+            "number": "1",    // Error: number should be a long (integer), not a string
+            "runtime": 60,
+            "season": 1,
+            "summary": "The first episode of the show.",
+            "url": "http://api.tvmaze.com/episodes/1"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "http://api.tvmaze.com/episodes/2"
+              }
+            },
+            "airdate": "2023-01-08",
+            // Error: Missing "airstamp" field
+            "airtime": "08:00",
+            "id": "2",
+            // Error: Missing "image" field entirely
+            "name": "Episode 2",
+            "number": 2,
+            "runtime": "sixty",  // Error: runtime should be a long (integer), not a string
+            "season": 1,
+            "summary": "The second episode of the show.",
+            "url": "http://api.tvmaze.com/episodes/2"
+          }
+        ]
+      }
+    }
+]
